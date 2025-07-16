@@ -20,6 +20,6 @@ public class ex20 {
             System.out.println("Unidade inválida.");
         }
 
-        sc  .close();
+        sc.close();
     }
 }
