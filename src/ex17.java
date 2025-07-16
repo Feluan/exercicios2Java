@@ -10,10 +10,10 @@ public class ex17 {
 
         if (valor > 2000){
             bonus = valor*0.10;
-            System.out.println("O valor do bônus é: "+bonus);
+            System.out.printf("O valor do bônus é: %.2f%n",bonus);
         }else{
             bonus = valor*0.15;
-            System.out.println("O valor do bônus é: "+bonus);
+            System.out.printf("O valor do bônus é: %.2f%n",bonus);
         }
         sc.close();
     }
